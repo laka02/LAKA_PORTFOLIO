@@ -1,4 +1,4 @@
-import { Github, ArrowDown, Mail, Code2, Sparkles, GraduationCap } from "lucide-react";
+import { Github, ArrowDown, Mail, Code2, Sparkles, GraduationCap, Download } from "lucide-react";
 import { Button } from "./ui/button";
 import profilePic from "@/assets/profile-pic.png";
 
@@ -55,9 +55,9 @@ const HeroSection = () => {
                 </a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
-                <a href="#projects">
-                  <ArrowDown className="w-5 h-5" />
-                  View Projects
+                <a href="/resume.pdf" download>
+                  <Download className="w-5 h-5" />
+                  Download CV
                 </a>
               </Button>
               <Button variant="ghost" size="lg" asChild>
