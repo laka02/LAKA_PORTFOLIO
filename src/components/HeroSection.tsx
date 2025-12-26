@@ -1,5 +1,6 @@
 import { Github, ArrowDown, Mail, Code2, Sparkles, GraduationCap } from "lucide-react";
 import { Button } from "./ui/button";
+import profilePic from "@/assets/profile-pic.png";
 
 const HeroSection = () => {
   return (
@@ -74,11 +75,11 @@ const HeroSection = () => {
               {/* Profile Image Container */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
                 <div className="profile-ring w-full h-full rounded-full overflow-hidden">
-                  <div className="w-full h-full rounded-full overflow-hidden bg-secondary flex items-center justify-center">
-                    <span className="text-6xl sm:text-7xl md:text-8xl font-display font-bold text-muted-foreground">
-                      LV
-                    </span>
-                  </div>
+                  <img 
+                    src={profilePic} 
+                    alt="Lakshika Viduranga" 
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </div>
 
