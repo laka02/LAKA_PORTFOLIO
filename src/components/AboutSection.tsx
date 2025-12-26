@@ -39,12 +39,13 @@ const AboutSection = () => {
 
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-muted-foreground mb-6">
-            I'm a Full Stack Developer passionate about building web applications that solve 
-            real-world problems. With a strong foundation in both frontend and backend technologies, 
-            I create seamless digital experiences from concept to deployment.
+            I'm an IT Undergraduate at Sri Lanka Institute of Information Technology (SLIIT), 
+            specializing in Information Technology. I'm passionate about building web applications 
+            that solve real-world problems with a strong foundation in both frontend and backend technologies.
           </p>
           <p className="text-muted-foreground mb-6">
-            My focus is on writing clean, maintainable code and building systems that scale. 
+            Proficient in the MERN stack (MongoDB, Express, React, Node.js) and Spring Boot, 
+            I focus on writing clean, maintainable code and building systems that scale. 
             I believe in the power of modern web technologies to transform ideas into impactful 
             digital products.
           </p>

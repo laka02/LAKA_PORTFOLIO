@@ -12,10 +12,10 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2 animate-fade-in">
-              John
+              Lakshika
             </h1>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gradient mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Doe
+              Viduranga
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               Full Stack Developer
@@ -41,14 +41,14 @@ const HeroSection = () => {
               </span>
               <span className="flex items-center gap-2 text-sm text-muted-foreground">
                 <GraduationCap className="w-4 h-4 text-primary" />
-                CS Graduate
+                IT Undergraduate
               </span>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: "0.6s" }}>
               <Button variant="hero" size="lg" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/laka02" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5" />
                   GitHub Profile
                 </a>
@@ -76,7 +76,7 @@ const HeroSection = () => {
                 <div className="profile-ring w-full h-full rounded-full overflow-hidden">
                   <div className="w-full h-full rounded-full overflow-hidden bg-secondary flex items-center justify-center">
                     <span className="text-6xl sm:text-7xl md:text-8xl font-display font-bold text-muted-foreground">
-                      JD
+                      LV
                     </span>
                   </div>
                 </div>
@@ -93,13 +93,13 @@ const HeroSection = () => {
                 className="floating-badge bottom-16 -left-4 sm:-left-8"
                 style={{ animationDelay: "2s" }}
               >
-                <span className="text-primary font-semibold">TypeScript</span>
+                <span className="text-primary font-semibold">MongoDB</span>
               </div>
               <div 
                 className="floating-badge bottom-4 right-8 sm:right-4"
                 style={{ animationDelay: "4s" }}
               >
-                <span className="text-primary font-semibold">Node.js</span>
+                <span className="text-primary font-semibold">Spring Boot</span>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ const HeroSection = () => {
             Core Tech Stack
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            {["React", "TypeScript", "Node.js", "Next.js", "Tailwind CSS", "PostgreSQL"].map((tech) => (
+            {["React", "Node.js", "Express", "MongoDB", "Spring Boot", "Java"].map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-2 glass rounded-full text-sm text-muted-foreground hover:text-foreground hover:border-primary/30 transition-all duration-300"

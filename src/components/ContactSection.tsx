@@ -1,24 +1,30 @@
-import { Mail, Github, Linkedin, MessageCircle } from "lucide-react";
+import { Mail, Github, Linkedin, Phone, Instagram } from "lucide-react";
 import { Button } from "./ui/button";
 
 const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    href: "https://github.com",
-    username: "@johndoe",
+    href: "https://github.com/laka02",
+    username: "@laka02",
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com",
-    username: "John Doe",
+    href: "https://www.linkedin.com/in/lakshika-viduranga",
+    username: "Lakshika Viduranga",
   },
   {
-    name: "WhatsApp",
-    icon: MessageCircle,
-    href: "https://wa.me/1234567890",
-    username: "+1 234 567 890",
+    name: "Instagram",
+    icon: Instagram,
+    href: "https://www.instagram.com/_vidu_18/",
+    username: "@_vidu_18",
+  },
+  {
+    name: "Phone",
+    icon: Phone,
+    href: "tel:+94763448722",
+    username: "+94 76 344 8722",
   },
 ];
 
@@ -50,7 +56,7 @@ const ContactSection = () => {
               I'll respond within 24 hours
             </p>
             <Button variant="hero" size="lg" asChild>
-              <a href="mailto:hello@johndoe.dev">
+              <a href="mailto:lakshikaviduranga20021017@gmail.com">
                 Send a Message
               </a>
             </Button>
@@ -59,7 +65,7 @@ const ContactSection = () => {
           {/* Social Links Card */}
           <div className="glass glass-hover rounded-2xl p-8 text-center group">
             <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors duration-300">
-              <MessageCircle className="w-8 h-8 text-primary" />
+              <Phone className="w-8 h-8 text-primary" />
             </div>
             <h3 className="font-display font-semibold text-xl mb-2">Connect</h3>
             <p className="text-muted-foreground text-sm mb-6">

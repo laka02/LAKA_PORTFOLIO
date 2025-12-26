@@ -5,10 +5,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-sm">
-              JD
+              LV
             </div>
             <span className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} John Doe. All rights reserved.
+              © {new Date().getFullYear()} Lakshika Viduranga. All rights reserved.
             </span>
           </div>
           <p className="text-sm text-muted-foreground">
