@@ -12,19 +12,19 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>John Doe | Full Stack Developer</title>
+        <title>Lakshika Viduranga | Full Stack Developer</title>
         <meta
           name="description"
-          content="Full Stack Developer specializing in React, TypeScript, and Node.js. Building beautiful, performant web applications with modern technologies."
+          content="IT Undergraduate at SLIIT specializing in MERN Stack and Spring Boot. Building beautiful, performant web applications with modern technologies."
         />
-        <meta name="keywords" content="Full Stack Developer, React, TypeScript, Node.js, Web Development, Portfolio" />
-        <meta property="og:title" content="John Doe | Full Stack Developer" />
+        <meta name="keywords" content="Full Stack Developer, MERN Stack, React, Node.js, Spring Boot, Web Development, Portfolio, SLIIT" />
+        <meta property="og:title" content="Lakshika Viduranga | Full Stack Developer" />
         <meta
           property="og:description"
-          content="Full Stack Developer specializing in React, TypeScript, and Node.js. Building beautiful, performant web applications."
+          content="IT Undergraduate at SLIIT specializing in MERN Stack and Spring Boot. Building beautiful, performant web applications."
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://johndoe.dev" />
+        <link rel="canonical" href="https://lakshikaviduranga.dev" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
